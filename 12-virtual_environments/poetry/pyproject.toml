@@ -1,0 +1,19 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Mi ejemplo"
+authors = [
+    {name = "Ricardo Cuéllar",email = "rcuellarsn@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "flask (>=3.1.0,<4.0.0)",
+    "rich (>=13.9.4,<14.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
